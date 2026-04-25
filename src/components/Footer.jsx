@@ -60,7 +60,7 @@ export default function Footer({ theme }) {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20px 48px",
+          padding: "20px clamp(16px, 4vw, 48px)",
           background: bg,
         }}
       >
